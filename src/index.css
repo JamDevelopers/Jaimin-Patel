@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-display {
+    font-family: 'Syne', sans-serif;
+  }
+  .tracking-extratight {
+    letter-spacing: -0.05em;
+  }
+  .text-outline {
+    -webkit-text-stroke: 1px #2a2a2a;
+    color: transparent;
+  }
+  .text-outline-indigo {
+    -webkit-text-stroke: 1.5px #6366f1;
+    color: transparent;
+  }
+}
+
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 12s linear infinite;
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable-resume-paper, #printable-resume-paper * {
+    visibility: visible;
+  }
+  #printable-resume-paper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 15mm;
+    box-shadow: none;
+    border: none;
+  }
+}
+
