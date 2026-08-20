@@ -11,7 +11,9 @@ import {
   Check, 
   Clock, 
   Sparkles,
-  ExternalLink
+  ExternalLink,
+  Github,
+  Linkedin
 } from 'lucide-react';
 import { PERSONAL_INFO } from '../data/resumeData';
 import { ContactFormInput } from '../types';
@@ -34,6 +36,8 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isDarkMode }) =>
   const [submitted, setSubmitted] = useState(false);
   const [copiedEmail, setCopiedEmail] = useState(false);
   const [copiedPhone, setCopiedPhone] = useState(false);
+  const [copiedGithub, setCopiedGithub] = useState(false);
+  const [copiedLinkedin, setCopiedLinkedin] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -46,14 +50,20 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isDarkMode }) =>
     }, 1000);
   };
 
-  const copyToClipboard = (text: string, type: 'email' | 'phone') => {
+  const copyToClipboard = (text: string, type: 'email' | 'phone' | 'github' | 'linkedin') => {
     navigator.clipboard.writeText(text);
     if (type === 'email') {
       setCopiedEmail(true);
       setTimeout(() => setCopiedEmail(false), 2000);
-    } else {
+    } else if (type === 'phone') {
       setCopiedPhone(true);
       setTimeout(() => setCopiedPhone(false), 2000);
+    } else if (type === 'github') {
+      setCopiedGithub(true);
+      setTimeout(() => setCopiedGithub(false), 2000);
+    } else if (type === 'linkedin') {
+      setCopiedLinkedin(true);
+      setTimeout(() => setCopiedLinkedin(false), 2000);
     }
   };
 
@@ -185,6 +195,102 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ isDarkMode }) =>
               >
                 {copiedPhone ? <Check className="w-4 h-4 text-emerald-400" /> : <Copy className="w-4 h-4" />}
               </button>
+            </div>
+
+            {/* GitHub Profile Card */}
+            <div className={`p-6 rounded-3xl border flex items-center justify-between gap-4 ${
+              isDarkMode ? 'bg-slate-900/60 border-slate-800' : 'bg-white border-slate-200 shadow-sm'
+            }`}>
+              <div className="flex items-center gap-3 min-w-0">
+                <div className={`p-3 rounded-2xl shrink-0 ${
+                  isDarkMode ? 'bg-slate-800 text-white' : 'bg-slate-100 text-slate-900'
+                }`}>
+                  <Github className="w-5 h-5" />
+                </div>
+                <div className="min-w-0">
+                  <div className="text-xs font-semibold text-slate-400">GitHub Profile</div>
+                  <a 
+                    href={PERSONAL_INFO.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`text-sm font-bold truncate hover:underline flex items-center gap-1.5 ${isDarkMode ? 'text-white' : 'text-slate-900'}`}
+                  >
+                    <span>JamDevelopers</span>
+                    <ExternalLink className="w-3.5 h-3.5 text-indigo-400 shrink-0" />
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-1.5 shrink-0">
+                <a
+                  href={PERSONAL_INFO.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`p-2.5 rounded-xl border transition-colors ${
+                    isDarkMode ? 'bg-slate-950 border-slate-800 text-slate-300 hover:text-white' : 'bg-slate-100 border-slate-200 text-slate-700'
+                  }`}
+                  title="Visit GitHub"
+                >
+                  <ExternalLink className="w-4 h-4" />
+                </a>
+                <button
+                  onClick={() => copyToClipboard(PERSONAL_INFO.github, 'github')}
+                  className={`p-2.5 rounded-xl border transition-colors cursor-pointer ${
+                    isDarkMode ? 'bg-slate-950 border-slate-800 text-slate-300 hover:text-white' : 'bg-slate-100 border-slate-200 text-slate-700'
+                  }`}
+                  title="Copy GitHub URL"
+                >
+                  {copiedGithub ? <Check className="w-4 h-4 text-emerald-400" /> : <Copy className="w-4 h-4" />}
+                </button>
+              </div>
+            </div>
+
+            {/* LinkedIn Profile Card */}
+            <div className={`p-6 rounded-3xl border flex items-center justify-between gap-4 ${
+              isDarkMode ? 'bg-slate-900/60 border-slate-800' : 'bg-white border-slate-200 shadow-sm'
+            }`}>
+              <div className="flex items-center gap-3 min-w-0">
+                <div className={`p-3 rounded-2xl shrink-0 ${
+                  isDarkMode ? 'bg-blue-950 text-blue-400' : 'bg-blue-50 text-blue-600'
+                }`}>
+                  <Linkedin className="w-5 h-5" />
+                </div>
+                <div className="min-w-0">
+                  <div className="text-xs font-semibold text-slate-400">LinkedIn Profile</div>
+                  <a 
+                    href={PERSONAL_INFO.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`text-sm font-bold truncate hover:underline flex items-center gap-1.5 ${isDarkMode ? 'text-blue-400' : 'text-blue-600'}`}
+                  >
+                    <span>in/jaiminpatelsurat</span>
+                    <ExternalLink className="w-3.5 h-3.5 text-blue-400 shrink-0" />
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-1.5 shrink-0">
+                <a
+                  href={PERSONAL_INFO.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`p-2.5 rounded-xl border transition-colors ${
+                    isDarkMode ? 'bg-slate-950 border-slate-800 text-blue-400 hover:text-blue-300' : 'bg-slate-100 border-slate-200 text-blue-600'
+                  }`}
+                  title="Visit LinkedIn"
+                >
+                  <ExternalLink className="w-4 h-4" />
+                </a>
+                <button
+                  onClick={() => copyToClipboard(PERSONAL_INFO.linkedin, 'linkedin')}
+                  className={`p-2.5 rounded-xl border transition-colors cursor-pointer ${
+                    isDarkMode ? 'bg-slate-950 border-slate-800 text-slate-300 hover:text-white' : 'bg-slate-100 border-slate-200 text-slate-700'
+                  }`}
+                  title="Copy LinkedIn URL"
+                >
+                  {copiedLinkedin ? <Check className="w-4 h-4 text-emerald-400" /> : <Copy className="w-4 h-4" />}
+                </button>
+              </div>
             </div>
 
             {/* Location Card */}

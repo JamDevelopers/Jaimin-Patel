@@ -156,6 +156,8 @@ export const ResumeViewerModal: React.FC<ResumeViewerModalProps> = ({ isOpen, on
                 <p>Surat - 395007, Gujarat, India</p>
                 <p className="font-bold text-slate-900">+91 8160763069</p>
                 <p className="text-indigo-600 font-semibold">{PERSONAL_INFO.email}</p>
+                <p className="text-slate-800 font-medium">GitHub: <a href={PERSONAL_INFO.github} target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:underline">github.com/JamDevelopers</a></p>
+                <p className="text-slate-800 font-medium">LinkedIn: <a href={PERSONAL_INFO.linkedin} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">in/jaiminpatelsurat</a></p>
               </div>
             </div>
 

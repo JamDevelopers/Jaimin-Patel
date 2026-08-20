@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Download, Menu, X, Sun, Moon, Phone, Mail, MessageSquare, Sparkles } from 'lucide-react';
+import { Download, Menu, X, Sun, Moon, Phone, Mail, MessageSquare, Sparkles, Github, Linkedin } from 'lucide-react';
 import { PERSONAL_INFO } from '../data/resumeData';
 
 interface NavbarProps {
@@ -107,7 +107,39 @@ export const Navbar: React.FC<NavbarProps> = ({ isDarkMode, setIsDarkMode, onOpe
           </nav>
 
           {/* Right Action Controls */}
-          <div className="flex items-center gap-2 sm:gap-3">
+          <div className="flex items-center gap-1.5 sm:gap-2">
+            {/* GitHub Link */}
+            <a
+              id="nav-github-btn"
+              href={PERSONAL_INFO.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`p-2.5 rounded-xl transition-all border ${
+                isDarkMode
+                  ? 'bg-slate-900 text-slate-300 border-slate-800 hover:text-white hover:border-slate-700 hover:bg-slate-800'
+                  : 'bg-slate-100 text-slate-700 border-slate-200 hover:text-slate-950 hover:border-slate-300 hover:bg-slate-200'
+              }`}
+              title="GitHub Profile (JamDevelopers)"
+            >
+              <Github className="w-4 h-4" />
+            </a>
+
+            {/* LinkedIn Link */}
+            <a
+              id="nav-linkedin-btn"
+              href={PERSONAL_INFO.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`p-2.5 rounded-xl transition-all border ${
+                isDarkMode
+                  ? 'bg-slate-900 text-slate-300 border-slate-800 hover:text-blue-400 hover:border-blue-900/50 hover:bg-slate-800'
+                  : 'bg-slate-100 text-slate-700 border-slate-200 hover:text-blue-600 hover:border-blue-200 hover:bg-slate-200'
+              }`}
+              title="LinkedIn Profile (Jaimin Patel)"
+            >
+              <Linkedin className="w-4 h-4" />
+            </a>
+
             {/* Dark Mode Toggle */}
             <button
               id="theme-toggle-btn"
@@ -182,6 +214,30 @@ export const Navbar: React.FC<NavbarProps> = ({ isDarkMode, setIsDarkMode, onOpe
             </a>
           ))}
           <div className="pt-2 border-t border-slate-800/20 flex flex-col gap-2">
+            <div className="grid grid-cols-2 gap-2">
+              <a
+                href={PERSONAL_INFO.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`flex items-center justify-center gap-2 px-3 py-2.5 rounded-xl text-xs font-semibold border ${
+                  isDarkMode ? 'bg-slate-900 border-slate-800 text-slate-200' : 'bg-slate-100 border-slate-200 text-slate-800'
+                }`}
+              >
+                <Github className="w-4 h-4" />
+                <span>GitHub</span>
+              </a>
+              <a
+                href={PERSONAL_INFO.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`flex items-center justify-center gap-2 px-3 py-2.5 rounded-xl text-xs font-semibold border ${
+                  isDarkMode ? 'bg-slate-900 border-slate-800 text-blue-400' : 'bg-slate-100 border-slate-200 text-blue-600'
+                }`}
+              >
+                <Linkedin className="w-4 h-4" />
+                <span>LinkedIn</span>
+              </a>
+            </div>
             <a
               href={`https://wa.me/${PERSONAL_INFO.whatsapp}`}
               target="_blank"

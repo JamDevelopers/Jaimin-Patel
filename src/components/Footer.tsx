@@ -1,5 +1,5 @@
 import React from 'react';
-import { Download, Mail, Phone, MapPin, Heart, Sparkles, MessageSquare } from 'lucide-react';
+import { Download, Mail, Phone, MapPin, Heart, Sparkles, MessageSquare, Github, Linkedin, Facebook, Instagram, ExternalLink } from 'lucide-react';
 import { PERSONAL_INFO } from '../data/resumeData';
 
 interface FooterProps {
@@ -37,6 +37,37 @@ export const Footer: React.FC<FooterProps> = ({ isDarkMode, onOpenResumeModal })
             <p className="text-xs leading-relaxed max-w-md">
               10+ Years experience engineering custom mobile apps in Flutter, backends in Laravel/Node.js, desktop GST tax accounting tools, and WhatsApp API automation.
             </p>
+
+            {/* Social Links Row */}
+            <div className="flex items-center gap-2 pt-1">
+              <a
+                href={PERSONAL_INFO.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold border transition-all ${
+                  isDarkMode 
+                    ? 'bg-slate-900 border-slate-800 text-slate-300 hover:text-white hover:border-slate-700' 
+                    : 'bg-white border-slate-200 text-slate-700 hover:text-slate-950 shadow-sm'
+                }`}
+              >
+                <Github className="w-3.5 h-3.5" />
+                <span>GitHub (JamDevelopers)</span>
+              </a>
+
+              <a
+                href={PERSONAL_INFO.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold border transition-all ${
+                  isDarkMode 
+                    ? 'bg-slate-900 border-slate-800 text-blue-400 hover:text-blue-300 hover:border-blue-900/50' 
+                    : 'bg-white border-slate-200 text-blue-600 hover:text-blue-700 shadow-sm'
+                }`}
+              >
+                <Linkedin className="w-3.5 h-3.5" />
+                <span>LinkedIn</span>
+              </a>
+            </div>
 
             <div className={`p-4 rounded-2xl border ${
               isDarkMode ? 'bg-slate-900/60 border-slate-800/80 text-slate-300' : 'bg-white border-slate-200 text-slate-700 shadow-sm'
@@ -93,7 +124,7 @@ export const Footer: React.FC<FooterProps> = ({ isDarkMode, onOpenResumeModal })
             <div className="pt-2 flex flex-wrap gap-2">
               <button
                 onClick={onOpenResumeModal}
-                className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold text-white bg-indigo-600 hover:bg-indigo-500 shadow-sm"
+                className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold text-white bg-indigo-600 hover:bg-indigo-500 shadow-sm cursor-pointer"
               >
                 <Download className="w-3.5 h-3.5" />
                 <span>Resume PDF</span>
@@ -108,6 +139,58 @@ export const Footer: React.FC<FooterProps> = ({ isDarkMode, onOpenResumeModal })
                 <MessageSquare className="w-3.5 h-3.5" />
                 <span>WhatsApp</span>
               </a>
+
+              <a
+                href={PERSONAL_INFO.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold border transition-colors ${
+                  isDarkMode ? 'bg-slate-900 border-slate-800 text-slate-300 hover:text-white' : 'bg-white border-slate-200 text-slate-700 hover:text-slate-900'
+                }`}
+                title="GitHub"
+              >
+                <Github className="w-3.5 h-3.5" />
+                <span>GitHub</span>
+              </a>
+
+              <a
+                href={PERSONAL_INFO.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold border transition-colors ${
+                  isDarkMode ? 'bg-slate-900 border-slate-800 text-blue-400 hover:text-blue-300' : 'bg-white border-slate-200 text-blue-600 hover:text-blue-700'
+                }`}
+                title="LinkedIn"
+              >
+                <Linkedin className="w-3.5 h-3.5" />
+                <span>LinkedIn</span>
+              </a>
+
+               <a
+                href={PERSONAL_INFO.facebook}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold border transition-colors ${
+                  isDarkMode ? 'bg-slate-900 border-slate-800 text-blue-400 hover:text-blue-300' : 'bg-white border-slate-200 text-blue-600 hover:text-blue-700'
+                }`}
+                title="Facebook"
+              >
+                <Facebook className="w-3.5 h-3.5" />
+                <span>Facebook</span>
+              </a>
+
+               <a
+                href={PERSONAL_INFO.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold border transition-colors ${
+                  isDarkMode ? 'bg-slate-900 border-slate-800 text-red-400 hover:text-red-300' : 'bg-white border-slate-200 text-red-600 hover:text-red-700'
+                }`}
+                title="Instagram"
+              >
+                <Instagram className="w-3.5 h-3.5" />
+                <span>Instagram</span>
+              </a>
             </div>
           </div>
 
@@ -118,7 +201,10 @@ export const Footer: React.FC<FooterProps> = ({ isDarkMode, onOpenResumeModal })
           <div>
             © {new Date().getFullYear()} Jaimin R Patel. All rights reserved. Surat, Gujarat, India.
           </div>
-          <div className="flex items-center gap-1">
+          <div className="flex items-center gap-4">
+            <a href={PERSONAL_INFO.github} target="_blank" rel="noopener noreferrer" className="hover:text-slate-400 transition-colors">GitHub</a>
+            <a href={PERSONAL_INFO.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-slate-400 transition-colors">LinkedIn</a>
+            <span className="text-slate-700">•</span>
             <span>Built with React, Tailwind CSS, & Framer Motion</span>
           </div>
         </div>

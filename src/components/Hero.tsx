@@ -12,7 +12,9 @@ import {
   Bot, 
   ArrowRight,
   ShieldCheck,
-  Cpu
+  Cpu,
+  Github,
+  Linkedin
 } from 'lucide-react';
 import { PERSONAL_INFO } from '../data/resumeData';
 
@@ -84,7 +86,7 @@ export const Hero: React.FC<HeroProps> = ({ isDarkMode, onOpenResumeModal }) => 
             </div>
 
             {/* Quick Contact Chips */}
-            <div className="flex flex-wrap items-center gap-3 text-xs sm:text-sm font-medium pt-1">
+            <div className="flex flex-wrap items-center gap-2.5 text-xs sm:text-sm font-medium pt-1">
               <div className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl border ${
                 isDarkMode ? 'bg-slate-900/60 border-slate-800 text-slate-300' : 'bg-slate-100 border-slate-200 text-slate-700'
               }`}>
@@ -114,6 +116,36 @@ export const Hero: React.FC<HeroProps> = ({ isDarkMode, onOpenResumeModal }) => 
               >
                 <Phone className="w-4 h-4 text-amber-400" />
                 <span>{PERSONAL_INFO.phone}</span>
+              </a>
+
+              {/* GitHub Link Chip */}
+              <a
+                href={PERSONAL_INFO.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl border transition-colors ${
+                  isDarkMode 
+                    ? 'bg-slate-900/60 border-slate-800 text-slate-300 hover:text-white hover:border-slate-700' 
+                    : 'bg-slate-100 border-slate-200 text-slate-700 hover:text-slate-900 hover:border-slate-300'
+                }`}
+              >
+                <Github className="w-4 h-4 text-slate-300" />
+                <span>github.com/JamDevelopers</span>
+              </a>
+
+              {/* LinkedIn Link Chip */}
+              <a
+                href={PERSONAL_INFO.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl border transition-colors ${
+                  isDarkMode 
+                    ? 'bg-slate-900/60 border-slate-800 text-slate-300 hover:text-blue-400 hover:border-blue-900/50' 
+                    : 'bg-slate-100 border-slate-200 text-slate-700 hover:text-blue-600 hover:border-blue-200'
+                }`}
+              >
+                <Linkedin className="w-4 h-4 text-blue-400" />
+                <span>linkedin.com/in/jaiminpatelsurat</span>
               </a>
             </div>
 
@@ -151,6 +183,39 @@ export const Hero: React.FC<HeroProps> = ({ isDarkMode, onOpenResumeModal }) => 
                 <MessageSquare className="w-4 h-4" />
                 <span>WhatsApp Quick Chat</span>
               </a>
+
+              {/* GitHub & LinkedIn Social Buttons */}
+              <div className="flex items-center gap-2">
+                <a
+                  id="hero-github-btn"
+                  href={PERSONAL_INFO.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`p-3 rounded-xl border transition-all ${
+                    isDarkMode
+                      ? 'bg-slate-900 text-slate-300 border-slate-800 hover:text-white hover:border-slate-700 hover:bg-slate-800'
+                      : 'bg-white text-slate-700 border-slate-300 hover:text-slate-950 hover:bg-slate-50'
+                  }`}
+                  title="GitHub Profile"
+                >
+                  <Github className="w-4 h-4" />
+                </a>
+
+                <a
+                  id="hero-linkedin-btn"
+                  href={PERSONAL_INFO.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`p-3 rounded-xl border transition-all ${
+                    isDarkMode
+                      ? 'bg-slate-900 text-slate-300 border-slate-800 hover:text-blue-400 hover:border-blue-900/50 hover:bg-slate-800'
+                      : 'bg-white text-slate-700 border-slate-300 hover:text-blue-600 hover:bg-slate-50'
+                  }`}
+                  title="LinkedIn Profile"
+                >
+                  <Linkedin className="w-4 h-4" />
+                </a>
+              </div>
             </div>
 
           </motion.div>

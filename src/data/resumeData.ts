@@ -9,6 +9,12 @@ export const PERSONAL_INFO = {
   phone: "+91 8160763069",
   whatsapp: "918160763069",
   email: "jamdevelopersurat@gmail.com",
+  github: "https://github.com/JamDevelopers",
+  linkedin: "https://www.linkedin.com/in/jaiminpatelsurat/",
+  facebook:"https://www.facebook.com/patel.jaimin.4249",
+  instagram:"https://www.instagram.com/jaiminpatel4249",
+  githubHandle: "JamDevelopers",
+  linkedinHandle: "jaiminpatelsurat",
   tagline: "Flutter Developer | Problem Solver | Consistent Builder",
   yearsOfExperience: "10+",
   closingDeclaration: "Yours Faithfully,",
@@ -325,6 +331,6 @@ export const PROJECT_HIGHLIGHTS: ProjectHighlight[] = [
 
 export const AI_CODING_ASSISTANTS = [
   "ChatGPT", "Codex", "GitHub Copilot", "Claude Code", "Cursor",
-  "Gemini CLI", "FreeBuff CLI", "NotebookLM", "HiggsField", "Notion",
-  "Git", "Manus", "AI Studio", "git", "Vercel", "RAGs"
+  "Gemini CLI", "FreeBuff CLI", "NotebookLM", "HiggsField", 
+  "Git", "Manus", "AI Studio", "Grock", "Vercel", "Notion"
 ];
