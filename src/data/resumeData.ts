@@ -668,7 +668,7 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
   },
   {
     id: "gallery-2",
-    src: "./assets/gallery-2.png",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-2.png",
     title: "JSM App — Accounting & Financial Reporting",
     category: "Flutter Application",
     associatedSiteId: "jsm-app",
@@ -676,7 +676,7 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
   },
   {
     id: "gallery-3",
-    src: "./assets/gallery-3.jpeg",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-3.jpeg",
     title: "U Photoshoot Digital Studio — Google Search #1 & Local SEO",
     category: "SEO & Digital Marketing",
     associatedSiteId: "uphotoshoot-studio",
@@ -684,7 +684,7 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
   },
   {
     id: "gallery-4",
-    src: "./assets/gallery-4.jpeg",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-4.jpeg",
     title: "Godfatherr Solutions — Global Web & Agency Portal",
     category: "Websites & Portals",
     associatedSiteId: "godfatherr-solutions",
@@ -692,7 +692,7 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
   },
   {
     id: "gallery-5",
-    src: "/assets/gallery-5.jpeg",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-5.jpeg",
     title: "CNG POINT — Green Society Heroes & Conversion Portal",
     category: "Websites & Portals",
     associatedSiteId: "cng-point",
@@ -700,7 +700,7 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
   },
   {
     id: "gallery-6",
-    src: "/assets/gallery-6.jpeg",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-6.jpeg",
     title: "Clean Fuel Projects — Safe Society & Hydro Testing",
     category: "Websites & Portals",
     associatedSiteId: "clean-fuel-projects",
@@ -708,7 +708,7 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
   },
   {
     id: "gallery-7",
-    src: "/assets/gallery-7.jpeg",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-7.jpeg",
     title: "Original Fuel System — Eco-Friendly E-Rickshaw & Gas Systems",
     category: "Websites & Portals",
     associatedSiteId: "original-fuel-system",
@@ -716,7 +716,7 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
   },
   {
     id: "gallery-8",
-    src: "/assets/gallery-8.jpeg",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-8.jpeg",
     title: "JSM Software — GST Compliance & New Update Blogs",
     category: "Websites & Portals",
     associatedSiteId: "jsm-blogs",
@@ -724,7 +724,7 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
   },
   {
     id: "gallery-9",
-    src: "/assets/gallery-9.jpeg",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-9.jpeg",
     title: "Short Film Mantra — Film Submission & Festival Platform",
     category: "Websites & Portals",
     associatedSiteId: "short-film-mantra",
@@ -732,7 +732,7 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
   },
   {
     id: "gallery-10",
-    src: "/assets/gallery-10.jpeg",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-10.jpeg",
     title: "Vardan Coco Room — Inquiry & Bulk Order Portal",
     category: "Websites & Portals",
     associatedSiteId: "vardan-coco-room",
@@ -740,7 +740,7 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
   },
   {
     id: "gallery-11",
-    src: "/assets/gallery-11.png",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-11.png",
     title: "WhatsApp Desktop Application — Invoicing & Dispatch",
     category: "Desktop Applications",
     associatedSiteId: "whatsapp-desktop",
@@ -748,7 +748,7 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
   },
   {
     id: "gallery-12",
-    src: "/assets/gallery-12.png",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-12.png",
     title: "CTF Billing — Industrial Gas & Cylinder Desktop Application",
     category: "Desktop Applications",
     associatedSiteId: "ctf-billing",
@@ -756,7 +756,7 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
   },
   {
     id: "gallery-13",
-    src: "/assets/gallery-13.png",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-13.png",
     title: "e-Way / e-Invoice Utility — GST Desktop Application",
     category: "Desktop Applications",
     associatedSiteId: "eway-einvoice-utility",
@@ -764,7 +764,7 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
   },
   {
     id: "gallery-14",
-    src: "/assets/gallery-14.png",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-14.png",
     title: "DCDF Trust — Non-Profit Foundation Website",
     category: "Websites & Portals",
     associatedSiteId: "dcdf-trust",
@@ -772,7 +772,7 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
   },
   {
     id: "gallery-15",
-    src: "/assets/gallery-15.png",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-15.png",
     title: "JSM App Intro — Mobile Accounting App Landing Website",
     category: "Websites & Portals",
     associatedSiteId: "jsm-app-intro",
@@ -780,7 +780,7 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
   },
   {
     id: "gallery-16",
-    src: "/assets/gallery-16.png",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-16.png",
     title: "WhatsApp API Manager — Cloud Management Website",
     category: "Websites & Portals",
     associatedSiteId: "whatsapp-api-manage",
@@ -788,7 +788,7 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
   },
   {
     id: "gallery-17",
-    src: "/assets/gallery-17.png",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-17.png",
     title: "Showcase Hub — Catalogue Manager",
     category: "Catalogue Manager",
     associatedSiteId: "showcase-hub",
@@ -796,7 +796,7 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
   },
   {
     id: "gallery-18",
-    src: "/assets/gallery-18.png",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-18.png",
     title: "JSM Software — Official Company Website",
     category: "Websites & Portals",
     associatedSiteId: "jsm-website",
@@ -804,7 +804,7 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
   },
   {
     id: "gallery-19",
-    src: "/assets/gallery-19.png",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-19.png",
     title: "Simple Count — POS Application",
     category: "POS & Retail",
     associatedSiteId: "simple-count-pos",
@@ -812,7 +812,7 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
   },
   {
     id: "gallery-20",
-    src: "/assets/gallery-20.png",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-20.png",
     title: "CNG Fabrication — Desktop Application",
     category: "Desktop Applications",
     associatedSiteId: "cng-fabrication",
