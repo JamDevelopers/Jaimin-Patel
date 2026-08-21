@@ -660,7 +660,7 @@ export const DEVELOPED_WEBSITES: DevelopedWebsite[] = [
 export const GALLERY_ASSETS: GalleryAsset[] = [
   {
     id: "gallery-1",
-    src: "./assets/gallery-1.png",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-1.png",
     title: "ProfitMaker — Share Market Tips & Calls App",
     category: "Flutter Application",
     associatedSiteId: "profitmaker-flutter",
