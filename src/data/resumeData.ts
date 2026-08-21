@@ -817,6 +817,22 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
     category: "Desktop Applications",
     associatedSiteId: "cng-fabrication",
     caption: "Specialized desktop application for tracking cylinder hydro testing inspection cycles, hydrostatic stretch data, and PESO certificate printing."
+  },
+  {
+    id: "gallery-21",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-21.png",
+    title: "Digital Products — Selling",
+    category: "Websites & Portals",
+    associatedSiteId: "digital-products",
+    caption: "digital products include all-in-one storefront platforms & custome pricing."
+  },
+  {
+    id: "gallery-22",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-22.png",
+    title: "Task Flow — Selling",
+    category: "Websites & Portals",
+    associatedSiteId: "task-flow",
+    caption: "TaskFlow helps service businesses manage jobs, attendance, technicians, customer updates, and billing in one place.."
   }
 ];
 
