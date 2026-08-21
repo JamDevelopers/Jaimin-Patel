@@ -1,4 +1,4 @@
-import { WorkExperience, EducationItem, SkillCategory, ProjectHighlight } from '../types';
+import { WorkExperience, EducationItem, SkillCategory, ProjectHighlight, DevelopedWebsite, GalleryAsset } from '../types';
 
 export const PERSONAL_INFO = {
   name: "Jaimin R Patel",
@@ -215,11 +215,11 @@ export const PROJECT_HIGHLIGHTS: ProjectHighlight[] = [
       { name: "Batch GST Reconciliation", description: "One-click GSTR-1 & GSTR-3B data import and tax liability calculation.", tag: "Filing" }
     ],
     demoType: "taxpro",
-    imageUrl: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1200&q=80",
+    imageUrl: "/assets/gallery-13.png",
     galleryImages: [
-      "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80"
+      "/assets/gallery-13.png",
+      "/assets/gallery-11.png",
+      "/assets/gallery-12.png"
     ]
   },
   {
@@ -250,11 +250,11 @@ export const PROJECT_HIGHLIGHTS: ProjectHighlight[] = [
       { name: "Automated Payment Reminders", description: "Schedules automated gentle payment reminders 3 days before and on due date.", tag: "Finance" }
     ],
     demoType: "whatsapp",
-    imageUrl: "https://images.unsplash.com/photo-1611746872915-64382b5c76da?auto=format&fit=crop&w=1200&q=80",
+    imageUrl: "/assets/gallery-16.png",
     galleryImages: [
-      "https://images.unsplash.com/photo-1611746872915-64382b5c76da?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80"
+      "/assets/gallery-16.png",
+      "/assets/gallery-17.png",
+      "/assets/gallery-12.png"
     ]
   },
   {
@@ -285,11 +285,11 @@ export const PROJECT_HIGHLIGHTS: ProjectHighlight[] = [
       { name: "PDF Dispatch Note Generator", description: "One-tap generation and sharing of transport delivery receipts via WhatsApp/Email.", tag: "Docs" }
     ],
     demoType: "flutter",
-    imageUrl: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=1200&q=80",
+    imageUrl: "/assets/gallery-10.jpeg",
     galleryImages: [
-      "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1556742049-0a670f4a458d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80"
+      "/assets/gallery-10.jpeg",
+      "/assets/gallery-9.jpeg",
+      "/assets/gallery-8.jpeg"
     ]
   },
   {
@@ -320,11 +320,11 @@ export const PROJECT_HIGHLIGHTS: ProjectHighlight[] = [
       { name: "Refill Due Date Predictor", description: "Predictive engine calculating next cylinder delivery date based on usage trends.", tag: "Logistics" }
     ],
     demoType: "crm",
-    imageUrl: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
+    imageUrl: "/assets/gallery-6.jpeg",
     galleryImages: [
-      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80"
+      "/assets/gallery-6.jpeg",
+      "/assets/gallery-7.jpeg",
+      "/assets/gallery-8.jpeg"
     ]
   },
   {
@@ -404,11 +404,11 @@ export const PROJECT_HIGHLIGHTS: ProjectHighlight[] = [
       }
     ],
     demoType: "crm",
-    imageUrl: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
+    imageUrl: "/assets/gallery-14.png",
     galleryImages: [
-      "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1642790551116-18e150f248e8?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800&q=80"
+      "/assets/gallery-14.png",
+      "/assets/gallery-15.png",
+      "/assets/gallery-18.png"
     ]
   }
 ];
@@ -418,3 +418,405 @@ export const AI_CODING_ASSISTANTS = [
   "Gemini CLI", "FreeBuff CLI", "NotebookLM", "HiggsField", 
   "Git", "Manus", "AI Studio", "Grock", "Vercel", "Notion"
 ];
+
+export const DEVELOPED_WEBSITES: DevelopedWebsite[] = [
+  {
+    id: "uphotoshoot-studio",
+    title: "U Photoshoot Digital Studio",
+    tagline: "Surat's Premier Photography Studio, Portfolio & Google Search Optimization",
+    category: "Studio & Photography SEO",
+    client: "U Photoshoot Digital Studio",
+    period: "2021 - Present",
+    developedBy: "Jaimin R Patel (JAM Developers)",
+    liveUrlOrLocation: "Adajan & Pal Gam, Surat, Gujarat",
+    summary: "Complete digital presence, high-performance portfolio showcase, and Google Local SEO strategy for Surat's top photography studio specializing in newborn, wedding, maternity, and birthday photoshoots.",
+    techStack: ["WordPress", "Local SEO & Keyword Ranking", "Google Business Profile", "Instagram API", "Responsive CSS3", "WhatsApp Booking"],
+    keyHighlights: [
+      "Ranked #1 on Google for keywords 'uphotoshoot', 'Best Photography in Surat', and 'Newborn/Maternity Studio Near Me'.",
+      "Integrated 4.9★ Google Business Profile rating with 371+ verified customer reviews.",
+      "High-speed image showcase gallery for Maternity, Pre-Wedding, Baby, and Event Photography.",
+      "Direct 1-tap WhatsApp booking flow for fast client consultation and calendar booking."
+    ],
+    metrics: [
+      { label: "Google Rating", value: "4.9 ★ (371+)" },
+      { label: "Instagram Fans", value: "5K+ Followers" },
+      { label: "Search Ranking", value: "Page 1 Top" },
+      { label: "Inquiry Growth", value: "+320%" }
+    ],
+    accentColor: "from-rose-500 to-amber-500",
+    bgGradient: "bg-gradient-to-br from-rose-950/40 via-slate-900 to-slate-950",
+    websiteType: "seo_portfolio",
+    mainImage: "/assets/gallery-3.jpeg",
+    galleryImages: [
+      "/assets/gallery-3.jpeg",
+    ],
+    mockupDetails: {
+      heroHeading: "U Photoshoot Digital Studio",
+      subHeading: "Best Photography | Newborn | Wedding, Maternity, Birthday Photoshoots Studio in Surat",
+      badges: ["4.9 ★ Top Rated", "Google #1 Rank", "Surat, Gujarat", "5K+ Community"],
+      sections: [
+        { title: "Google Search Dominance", desc: "Top SERP ranking for Surat photography searches with rich snippet knowledge panel.", icon: "Search" },
+        { title: "Portfolio Categories", desc: "High-resolution photo galleries for Pre-Wedding, Baby Shower, Newborn, and Events.", icon: "Camera" },
+        { title: "Client Booking Hotline", desc: "Direct phone and WhatsApp instant inquiry integration with location directions.", icon: "Phone" }
+      ],
+      footerCredit: "Shop No B 14, Monarch Pal, Gaurav Path Road, Adajan, Pal Gam, Surat 395009",
+      stats: [
+        { label: "Rating", val: "4.9/5.0" },
+        { label: "Google Reviews", val: "371+" },
+        { label: "Weddings Shot", val: "30+ Year" }
+      ]
+    }
+  },
+  {
+    id: "godfatherr-solutions",
+    title: "Godfatherr Solutions Web Platform",
+    tagline: "Global Digital Marketing, Lead Generation, E-Commerce & Web Development Agency",
+    category: "Agency & E-Commerce Web",
+    client: "Godfatherr Solutions",
+    period: "2020 - 2024",
+    developedBy: "Jaimin R Patel (Lead Developer)",
+    liveUrlOrLocation: "Global / Worldwide Agency Portal",
+    summary: "High-impact corporate web platform for a global agency offering end-to-end digital business solutions: E-Commerce, SEO, SMM, Lead Generation, and Custom CMS systems.",
+    techStack: ["WordPress", "Colibri / PHP", "WooCommerce", "Lead Generation CRM", "jQuery", "Payment Gateway", "SEO / SMM"],
+    keyHighlights: [
+      "Hero presentation: 'Do Your Business Worldwide, Get Customers From World, Get Best Business Experience'.",
+      "Interactive multi-service modules: Lead Generation, Web Development, Email Marketing, Customer Contact, CMS & E-Commerce.",
+      "Integrated client testimonials slider featuring international business executives.",
+      "Social media integration and rapid response lead capture funnel with 1-business-day turnaround guarantee."
+    ],
+    metrics: [
+      { label: "Client Retain", value: "95%+" },
+      { label: "Service Modules", value: "6 Core Verticals" },
+      { label: "Response Time", value: "< 24 Hrs" },
+      { label: "Global Reach", value: "10+ Countries" }
+    ],
+    accentColor: "from-sky-500 to-indigo-500",
+    bgGradient: "bg-gradient-to-br from-sky-950/40 via-slate-900 to-slate-950",
+    websiteType: "agency_ecommerce",
+    mainImage: "/assets/gallery-4.jpeg",
+    galleryImages: [    
+      "/assets/gallery-4.jpeg",
+    ],
+    mockupDetails: {
+      heroHeading: "DO YOUR BUSINESS WORLDWIDE ON WWW",
+      subHeading: "Get Customers From World, Get Best Business Experience With Godfatherr Solutions",
+      badges: ["Global Provider", "E-Commerce Suite", "Lead Generation", "Digital Marketing"],
+      sections: [
+        { title: "Discover Our Expertise", desc: "Expertise in Search Engine Optimization, Lead Gen, SMM and Web Development.", icon: "Sparkles" },
+        { title: "Full Range Marketing", desc: "Better visibility in world of internet, high retention rate, and affordable pricing.", icon: "TrendingUp" },
+        { title: "Client Testimonials", desc: "Proven track record with worldwide clients (Roland Schoettle, Tracey Awere, etc.)", icon: "Users" }
+      ],
+      footerCredit: "© 2024 GodFatherr Solutions. Created using WordPress & Custom PHP Architecture",
+      stats: [
+        { label: "Expertise", val: "SEO & SMM" },
+        { label: "Turnaround", val: "1-Day SLA" },
+        { label: "E-Commerce", val: "Multi-Store" }
+      ]
+    }
+  },
+  {
+    id: "cng-point",
+    title: "CNG POINT Web Platform",
+    tagline: "Let's Make Our City Clean, Green & Safe — CNG Conversion & Hydro Testing Facility",
+    category: "Green Energy & Automotive Portal",
+    client: "M/s CNG POINT (Tripura)",
+    period: "2017 - Present",
+    developedBy: "Infoshield Solutions (Jaimin R Patel)",
+    liveUrlOrLocation: "Agartala, Tripura, North-East India",
+    summary: "Official web portal and interactive fuel savings calculator for Tripura's premier PESO-approved Periodical CNG Cylinder Testing & Automotive Conversion Center.",
+    techStack: ["PHP", "JavaScript", "Custom Savings Engine", "Bootstrap", "HTML5 / CSS3", "PESO Standards"],
+    keyHighlights: [
+      "Custom 'Check Your Monthly Saving With CNG and Petrol' interactive calculator engine.",
+      "PESO Govt. of India approved Periodical CNG Cylinder Hydro Testing Facility specifications.",
+      "Detailed automotive conversion guide: Gasoline Electro Valve, Reducer CN-04, Reducer TN1.",
+      "Dual branch directory with direct contact: Reshambagan Office & Budhjunanagar TSR Camp Plant."
+    ],
+    metrics: [
+      { label: "Vehicles Converted", value: "5,000+ Nos" },
+      { label: "Fuel Savings", value: "> 50% vs Petrol" },
+      { label: "PESO Approval", value: "Govt. of India" },
+      { label: "State Region", value: "Tripura NE" }
+    ],
+    accentColor: "from-emerald-500 to-teal-500",
+    bgGradient: "bg-gradient-to-br from-emerald-950/40 via-slate-900 to-slate-950",
+    websiteType: "cng_energy",
+    mainImage: "/assets/gallery-5.jpeg",
+    galleryImages: [
+      "/assets/gallery-5.jpeg",
+    ],
+    mockupDetails: {
+      heroHeading: "LETS MAKE OUR CITY CLEAN, GREEN & SAFE",
+      subHeading: "We are Green Society Heroes — PESO Govt. Approved CNG Conversion & Periodical Cylinder Hydro Testing",
+      badges: ["Green Society Heroes", "PESO Approved", "5000+ Vehicles", "Hydro Testing Lab"],
+      sections: [
+        { title: "CNG Conversion Centre", desc: "Equipped with advanced Gasoline Electro Valve, CN-04 and TN1 Reducers for cars & 3-wheelers.", icon: "Zap" },
+        { title: "Hydro Testing Facility", desc: "First periodical CNG Cylinder testing unit in North East India approved by PESO, GOVT OF INDIA.", icon: "ShieldCheck" },
+        { title: "Monthly Savings Calculator", desc: "Interactive tool showing monthly fuel budget comparison between Petrol and CNG.", icon: "Calculator" }
+      ],
+      footerCredit: "Design and coding by Infoshield Solutions • Kashipur & Budhjunanagar, Agartala, Tripura",
+      stats: [
+        { label: "PESO Cert", val: "Govt. Approved" },
+        { label: "Conversions", val: "5000+ Autos" },
+        { label: "Testing Lab", val: "1st in NE" }
+      ]
+    }
+  },
+  {
+    id: "clean-fuel-projects",
+    title: "Clean Fuel Projects (Safe Society)",
+    tagline: "PESO CNG/LPG/Hydrogen Cylinder Testing & Online Certificate Verification Portal",
+    category: "Safety & Online Certificate Portal",
+    client: "Clean Fuel Projects (CFP)",
+    period: "2014 - Present",
+    developedBy: "Infoshield Solutions (Jaimin R Patel)",
+    liveUrlOrLocation: "Surat, Rajkot & Ankleshwar, Gujarat",
+    summary: "Pioneering online verification portal for cylinder testing certificates (for RTO, insurance officers, and filling stations) plus industrial SS 316 fittings and spare parts distribution.",
+    techStack: ["PHP", "MySQL", "Online Verification Engine", "Bootstrap", "jQuery", "PESO Rules 2016"],
+    keyHighlights: [
+      "Online Certificate Verification Engine: Step-by-step guide for RTO officers, Insurance inspectors, and gas station attendants to verify cylinder fitness directly on the web.",
+      "Multi-Plant Operations: Surat CTF Division (Barbodhan), Rajkot CTF Division (Aniyala), and Ankleshwar GIDC Plant.",
+      "Industrial SS 316 Tube Fittings Catalog (1\", 3/4\", 5/8\", 1/2\", 3/8\", 1/4\", 1/8\") and dispenser parts.",
+      "CNG Cascade retesting protocol & safety standards alignment with Petroleum & Explosives Safety Organization."
+    ],
+    metrics: [
+      { label: "Certificates Verified", value: "50,000+" },
+      { label: "Active Plants", value: "3 Major Divisions" },
+      { label: "ISO & URS Cert", value: "ISO 9001:2015" },
+      { label: "Safety Standard", value: "PESO Rule 2016" }
+    ],
+    accentColor: "from-amber-500 to-orange-500",
+    bgGradient: "bg-gradient-to-br from-amber-950/40 via-slate-900 to-slate-950",
+    websiteType: "gas_safety",
+    mainImage: "/assets/gallery-6.jpeg",
+    galleryImages: [
+      "/assets/gallery-6.jpeg"
+    ],
+    mockupDetails: {
+      heroHeading: "SAFE SOCIETY — CNG, LPG & HYDROGEN CYLINDER TESTING",
+      subHeading: "Our mission is to provide safety to CNG Stations and to CNG & Hydrogen cylinders through certified testing.",
+      badges: ["Safe Society", "Online Certificate Check", "3 Plant Divisions", "SS 316 Spares"],
+      sections: [
+        { title: "Online Certificate Portal", desc: "Instant online search for Gas Cylinder Rules 2016 certificates for RTO & insurance agents.", icon: "FileCheck" },
+        { title: "Testing Services", desc: "CNG, LPG & Hydrogen cylinder testing, cascade retesting, and spare parts supply.", icon: "Shield" },
+        { title: "SS 316 Fittings Catalog", desc: "Comprehensive supply of corrosion-resistant SS 316 double ferrule tube fittings.", icon: "Wrench" }
+      ],
+      footerCredit: "DEVELOPED BY INFOSHIELD SOLUTIONS • Surat, Rajkot, Ankleshwar (Chief Controller of Explosives Approved)",
+      stats: [
+        { label: "PESO CCOE", val: "Approved Lab" },
+        { label: "Divisions", val: "Surat/Rajkot/Ankleshwar" },
+        { label: "Fittings", val: "SS 316 Grade" }
+      ]
+    }
+  },
+  {
+    id: "original-fuel-system",
+    title: "Original Fuel System Pvt. Ltd.",
+    tagline: "Eco-Friendly E-Rickshaw Manufacturing, CNG/LPG/H2 Cylinders & Computerized PUC Portal",
+    category: "Eco-Mobility & Automotive Web",
+    client: "Original Fuel System Pvt. Ltd.",
+    period: "2016 - Present",
+    developedBy: "Infoshield Solutions (Jaimin R Patel)",
+    liveUrlOrLocation: "Narol-Vishala Rd Ahmedabad & Nadiad, Gujarat",
+    summary: "Comprehensive corporate website featuring eco-friendly electric vehicles (Passenger E-Rickshaw, Cargo Carrier, Municipality Waste collection), Lovato & Tomasetto Achille CNG kits, and computerized PUC testing centers.",
+    techStack: ["PHP", "JavaScript", "HTML5 / CSS3", "Bootstrap", "PUC Center Network", "Vehicle Showcase"],
+    keyHighlights: [
+      "Eco-Friendly E-Rickshaw Showcase: Passenger vehicle, Cargo good carrier, Eco Safari, and Municipal waste collector.",
+      "Computerized PUC Center module: Emission testing protocols across Petrol, CNG, Diesel, and LPG.",
+      "Lovato & Tomasetto Achille CNG kit dealer portal detailing 50%+ fuel expense savings.",
+      "Ground clearance kit catalog for suspension damping and multi-branch network across Ahmedabad and Anand."
+    ],
+    metrics: [
+      { label: "E-Rickshaws Built", value: "1,500+" },
+      { label: "Govt. Registered", value: "RoC Ahmedabad" },
+      { label: "PUC Tests Done", value: "25,000+" },
+      { label: "CNG Brands", value: "Lovato & Tomasetto" }
+    ],
+    accentColor: "from-blue-600 to-indigo-600",
+    bgGradient: "bg-gradient-to-br from-blue-950/40 via-slate-900 to-slate-950",
+    websiteType: "eco_automotive",
+    mainImage: "/assets/gallery-7.jpeg",
+    galleryImages: [
+      "/assets/gallery-7.jpeg",
+    ],
+    mockupDetails: {
+      heroHeading: "ECO FRIENDLY E-RICKSHAW & GAS CYLINDER SYSTEMS",
+      subHeading: "Original Fuel System Pvt. Ltd. — Passenger Vehicle, Cargo Good Carrier, Municipal Waste & CNG Systems",
+      badges: ["Eco-Friendly E-Rickshaw", "Computerized PUC", "Lovato & Tomasetto", "Ahmedabad Factory"],
+      sections: [
+        { title: "Electric Mobility Vehicles", desc: "Robust E-Rickshaws for passenger transport, cargo delivery, eco safaris and city sanitation.", icon: "Zap" },
+        { title: "Computerized PUC Center", desc: "Automated emission inspection center for Petrol > CNG > Diesel > LPG engines.", icon: "CheckCircle" },
+        { title: "Lovato & Tomasetto Achille Kits", desc: "Authorised kit fitment saving over 50% fuel cost compared to conventional petrol.", icon: "Award" }
+      ],
+      footerCredit: "Developed by Infoshield Solutions • Narol-Vishala Rd & Piplaj Factory, Ahmedabad",
+      stats: [
+        { label: "Inc. Year", val: "Since 2012" },
+        { label: "Kit Savings", val: "> 50% Fuel" },
+        { label: "PUC Types", val: "Petrol/CNG/Diesel" }
+      ]
+    }
+  }
+];
+
+export const GALLERY_ASSETS: GalleryAsset[] = [
+  {
+    id: "gallery-1",
+    src: "/assets/gallery-1.png",
+    title: "ProfitMaker — Share Market Tips & Calls App",
+    category: "Flutter Application",
+    associatedSiteId: "profitmaker-flutter",
+    caption: "Real-time stock market recommendation mobile application built in Flutter with live call notifications, target/stop-loss tracking, and market analytics."
+  },
+  {
+    id: "gallery-2",
+    src: "/assets/gallery-2.png",
+    title: "JSM App — Accounting & Financial Reporting",
+    category: "Flutter Application",
+    associatedSiteId: "jsm-app",
+    caption: "Enterprise accounting and reporting mobile application in Flutter for balance sheets, ledger statements, receivables, and real-time business metrics."
+  },
+  {
+    id: "gallery-3",
+    src: "/assets/gallery-3.jpeg",
+    title: "U Photoshoot Digital Studio — Google Search #1 & Local SEO",
+    category: "SEO & Digital Marketing",
+    associatedSiteId: "uphotoshoot-studio",
+    caption: "Top #1 Google SERP ranking, 4.9★ (371+ verified reviews), and Google Business Profile optimization for Surat's premier photography studio."
+  },
+  {
+    id: "gallery-4",
+    src: "/assets/gallery-4.jpeg",
+    title: "Godfatherr Solutions — Global Web & Agency Portal",
+    category: "Websites & Portals",
+    associatedSiteId: "godfatherr-solutions",
+    caption: "Worldwide business solutions website with digital marketing services, custom web development, lead generation workflows, and client case studies."
+  },
+  {
+    id: "gallery-5",
+    src: "/assets/gallery-5.jpeg",
+    title: "CNG POINT — Green Society Heroes & Conversion Portal",
+    category: "Websites & Portals",
+    associatedSiteId: "cng-point",
+    caption: "Official web portal for PESO-approved CNG cylinder testing facility, conversion center, and interactive fuel savings calculator."
+  },
+  {
+    id: "gallery-6",
+    src: "/assets/gallery-6.jpeg",
+    title: "Clean Fuel Projects — Safe Society & Hydro Testing",
+    category: "Websites & Portals",
+    associatedSiteId: "clean-fuel-projects",
+    caption: "Online cylinder testing verification portal, safety compliance database for RTO/insurance, and industrial SS 316 fittings catalog."
+  },
+  {
+    id: "gallery-7",
+    src: "/assets/gallery-7.jpeg",
+    title: "Original Fuel System — Eco-Friendly E-Rickshaw & Gas Systems",
+    category: "Websites & Portals",
+    associatedSiteId: "original-fuel-system",
+    caption: "Electric mobility platform showcasing passenger e-rickshaws, cargo loaders, municipal waste vehicles, and computerized PUC testing center."
+  },
+  {
+    id: "gallery-8",
+    src: "/assets/gallery-8.jpeg",
+    title: "JSM Software — GST Compliance & New Update Blogs",
+    category: "Websites & Portals",
+    associatedSiteId: "jsm-blogs",
+    caption: "Official knowledge base and blog portal covering statutory GST notifications, e-Waybill rules, software feature releases, and accounting guides."
+  },
+  {
+    id: "gallery-9",
+    src: "/assets/gallery-9.jpeg",
+    title: "Short Film Mantra — Film Submission & Festival Platform",
+    category: "Websites & Portals",
+    associatedSiteId: "short-film-mantra",
+    caption: "Online film festival entry portal for independent filmmakers, video submissions, jury review workflows, and festival awards showcase."
+  },
+  {
+    id: "gallery-10",
+    src: "/assets/gallery-10.jpeg",
+    title: "Vardan Coco Room — Inquiry & Bulk Order Portal",
+    category: "Websites & Portals",
+    associatedSiteId: "vardan-coco-room",
+    caption: "Agricultural coco peat product showcase, substrate bulk order quoting system, and commercial inquiry management pipeline."
+  },
+  {
+    id: "gallery-11",
+    src: "/assets/gallery-11.png",
+    title: "WhatsApp Desktop Application — Invoicing & Dispatch",
+    category: "Desktop Applications",
+    associatedSiteId: "whatsapp-desktop",
+    caption: "Desktop automation application for sending ERP tax invoices, outstanding payment alerts, and account statements directly to clients via WhatsApp."
+  },
+  {
+    id: "gallery-12",
+    src: "/assets/gallery-12.png",
+    title: "CTF Billing — Industrial Gas & Cylinder Desktop Application",
+    category: "Desktop Applications",
+    associatedSiteId: "ctf-billing",
+    caption: "Custom desktop billing software designed for CNG/LPG hydro testing stations with PESO-compliant invoicing and customer record management."
+  },
+  {
+    id: "gallery-13",
+    src: "/assets/gallery-13.png",
+    title: "e-Way / e-Invoice Utility — GST Desktop Application",
+    category: "Desktop Applications",
+    associatedSiteId: "eway-einvoice-utility",
+    caption: "Direct GST portal integration desktop tool generating IRN QR codes, JSON payloads, NIC e-Way bills, and USB digital token signing."
+  },
+  {
+    id: "gallery-14",
+    src: "/assets/gallery-14.png",
+    title: "DCDF Trust — Non-Profit Foundation Website",
+    category: "Websites & Portals",
+    associatedSiteId: "dcdf-trust",
+    caption: "Charitable trust portal with donor engagement, social welfare activity highlights, news updates, and volunteer registration."
+  },
+  {
+    id: "gallery-15",
+    src: "/assets/gallery-15.png",
+    title: "JSM App Intro — Mobile Accounting App Landing Website",
+    category: "Websites & Portals",
+    associatedSiteId: "jsm-app-intro",
+    caption: "Feature walkthrough landing page demonstrating JSM's real-time mobile ERP synchronization, financial dashboards, and download links."
+  },
+  {
+    id: "gallery-16",
+    src: "/assets/gallery-16.png",
+    title: "WhatsApp API Manager — Cloud Management Website",
+    category: "Websites & Portals",
+    associatedSiteId: "whatsapp-api-manage",
+    caption: "Cloud dashboard for configuring WhatsApp business templates, monitoring outbound delivery logs, quota management, and webhook routing."
+  },
+  {
+    id: "gallery-17",
+    src: "/assets/gallery-17.png",
+    title: "Showcase Hub — Catalogue Manager",
+    category: "Catalogue Manager",
+    associatedSiteId: "showcase-hub",
+    caption: "Interactive digital product catalog management system with category filtering, instant price list downloads, and inquiry cart builder."
+  },
+  {
+    id: "gallery-18",
+    src: "/assets/gallery-18.png",
+    title: "JSM Software — Official Company Website",
+    category: "Websites & Portals",
+    associatedSiteId: "jsm-website",
+    caption: "Corporate software company portal highlighting enterprise ERP solutions, TaxPro GST modules, client testimonials, and pricing."
+  },
+  {
+    id: "gallery-19",
+    src: "/assets/gallery-19.png",
+    title: "Simple Count — POS Application",
+    category: "POS & Retail",
+    associatedSiteId: "simple-count-pos",
+    caption: "Fast touch-screen point of sale system with barcode scanning, instant thermal receipt printing, daily cash register closing, and stock tracking."
+  },
+  {
+    id: "gallery-20",
+    src: "/assets/gallery-20.png",
+    title: "CNG Fabrication — Desktop Application",
+    category: "Desktop Applications",
+    associatedSiteId: "cng-fabrication",
+    caption: "Specialized desktop application for tracking cylinder hydro testing inspection cycles, hydrostatic stretch data, and PESO certificate printing."
+  }
+];
+

@@ -56,6 +56,43 @@ export interface ProjectHighlight {
   galleryImages?: string[];
 }
 
+export interface DevelopedWebsite {
+  id: string;
+  title: string;
+  tagline: string;
+  category: string;
+  client: string;
+  period: string;
+  developedBy: string;
+  liveUrlOrLocation?: string;
+  summary: string;
+  techStack: string[];
+  keyHighlights: string[];
+  metrics: { label: string; value: string }[];
+  accentColor: string;
+  bgGradient: string;
+  websiteType: 'seo_portfolio' | 'agency_ecommerce' | 'cng_energy' | 'gas_safety' | 'eco_automotive';
+  mainImage: string;
+  galleryImages: string[];
+  mockupDetails: {
+    heroHeading: string;
+    subHeading: string;
+    badges: string[];
+    sections: { title: string; desc: string; icon?: string }[];
+    footerCredit: string;
+    stats?: { label: string; val: string }[];
+  };
+}
+
+export interface GalleryAsset {
+  id: string;
+  src: string;
+  title: string;
+  category: 'Flutter Application' | 'Websites & Portals' | 'Desktop Applications' | 'SEO & Digital Marketing' | 'Catalogue Manager' | 'POS & Retail' | string;
+  associatedSiteId?: string;
+  caption: string;
+}
+
 export interface ContactFormInput {
   name: string;
   email: string;

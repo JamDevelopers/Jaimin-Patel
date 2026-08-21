@@ -94,7 +94,7 @@ export const Footer: React.FC<FooterProps> = ({ isDarkMode, onOpenResumeModal })
               <li><a href="#hero" className="hover:text-indigo-400 transition-colors">Overview</a></li>
               <li><a href="#experience" className="hover:text-indigo-400 transition-colors">Career Experience</a></li>
               <li><a href="#skills" className="hover:text-indigo-400 transition-colors">Skills & AI Coding Tools</a></li>
-              <li><a href="#projects" className="hover:text-indigo-400 transition-colors">Key Solutions</a></li>
+              <li><a href="#gallery" className="hover:text-indigo-400 transition-colors">Work Gallery</a></li>
               <li><a href="#education" className="hover:text-indigo-400 transition-colors">Education</a></li>
               <li><a href="#contact" className="hover:text-indigo-400 transition-colors">Get In Touch</a></li>
             </ul>

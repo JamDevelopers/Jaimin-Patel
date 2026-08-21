@@ -9,7 +9,7 @@ import { Hero } from './components/Hero';
 import { Stats } from './components/Stats';
 import { ExperienceTimeline } from './components/ExperienceTimeline';
 import { SkillsGrid } from './components/SkillsGrid';
-import { ProjectsShowcase } from './components/ProjectsShowcase';
+import { AuthenticGallery } from './components/AuthenticGallery';
 import { Education } from './components/Education';
 import { ContactSection } from './components/ContactSection';
 import { Footer } from './components/Footer';
@@ -51,7 +51,7 @@ export default function App() {
 
         <SkillsGrid isDarkMode={isDarkMode} />
 
-        <ProjectsShowcase isDarkMode={isDarkMode} />
+        <AuthenticGallery isDarkMode={isDarkMode} />
 
         <Education isDarkMode={isDarkMode} />
 

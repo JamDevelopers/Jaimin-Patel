@@ -17,7 +17,7 @@ export const Navbar: React.FC<NavbarProps> = ({ isDarkMode, setIsDarkMode, onOpe
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
 
-      const sections = ['hero', 'experience', 'skills', 'projects', 'education', 'contact'];
+      const sections = ['hero', 'experience', 'skills', 'gallery', 'education', 'contact'];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -41,7 +41,7 @@ export const Navbar: React.FC<NavbarProps> = ({ isDarkMode, setIsDarkMode, onOpe
     { name: 'Overview', href: '#hero' },
     { name: 'Experience', href: '#experience' },
     { name: 'Skills & AI Tools', href: '#skills' },
-    { name: 'Solutions', href: '#projects' },
+    { name: 'Work Gallery', href: '#gallery' },
     { name: 'Education', href: '#education' },
     { name: 'Contact', href: '#contact' },
   ];
