@@ -131,11 +131,11 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
       { name: "eWaybill & Digital Token APIs", featured: true },
       { name: "Payment Gateways Integration", featured: true },
       { name: "Puppeteer Sharp & WebScraper", featured: true },
-      { name: "Selenium & WebView2" },
+      { name: "Selenium & WebView2",featured: true },
       { name: "SMS Gateways" },
       { name: "Postman API Testing" },
       { name: "AI Automation Scripts" },
-      { name: "RESTful Web Services" }
+      { name: "RESTful Web Services",featured: true }
     ]
   },
   {
@@ -145,12 +145,12 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     skills: [
       { name: "WordPress Plugins & Themes", featured: true },
       { name: "WooCommerce" },
-      { name: "Shopify" },
-      { name: "Magento" },
+      { name: "Shopify",featured: true },
+      { name: "Magento",featured: true },
       { name: "OpenCart" },
-      { name: "PrestaShop" },
+      { name: "PrestaShop"},
       { name: "Joomla" },
-      { name: "Drupal" }
+      { name: "Drupal",featured: true }
     ]
   },
   {
@@ -165,9 +165,9 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
       { name: "FreeBuff CLI" },
       { name: "NotebookLM" },
       { name: "HiggsField" },
-      { name: "Google AI Studio" },
+      { name: "Google AI Studio",featured: true },
       { name: "Manus & Notion AI" },
-      { name: "Git & PlayStore Console" }
+      { name: "Git & PlayStore Console",featured: true }
     ]
   },
   {
@@ -175,13 +175,13 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     title: "Marketing & Utilities",
     iconName: "TrendingUp",
     skills: [
-      { name: "SEO & Keyword Ranking" },
+      { name: "SEO & Keyword Ranking", featured: true},
       { name: "Digital Marketing & Google Ads" },
-      { name: "SMO / SMM" },
+      { name: "SMO / SMM",featured: true },
       { name: "Content Writing" },
-      { name: "Crystal Reports" },
+      { name: "Crystal Reports",featured: true },
       { name: "Android Studio" },
-      { name: "QA Testing & Debugging" }
+      { name: "QA Testing & Debugging",featured: true }
     ]
   }
 ];
@@ -325,6 +325,90 @@ export const PROJECT_HIGHLIGHTS: ProjectHighlight[] = [
       "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80",
       "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    id: "profitmaker-share-market",
+    title: "ProfitMaker Share Market Tips Platform",
+    category: "Fintech Web Portal",
+    tagline: "Real-Time Stock Market Tips, Trading Signals & Investor Intelligence Platform",
+    description: "Custom web platform for providing stock market tips, trading calls, investment insights, subscription plans, performance tracking, and member-based access to market recommendations.",
+    impact: "Designed and developed a scalable investor platform for delivering paid and premium share market tips with automated subscriber management and performance analytics.",
+    tech: [
+      "Firebase",
+      "Flutter",
+      "REST API",
+      "Payment Gateway",
+      "Reports Analytics",
+      "Subscription Management"
+    ],
+    icon: "TrendingUp",
+    metrics: [
+      { label: "Market Calls", value: "10K+" },
+      { label: "Subscribers", value: "5K+" },
+      { label: "Trading Categories", value: "25+" },
+      { label: "Payment Success", value: "99%+" }
+    ],
+    architecture: [
+      {
+        title: "Investor Dashboard",
+        description: "Personalized dashboard showing active tips, trading signals, subscription status, call history and market performance.",
+        badge: "Dashboard"
+      },
+      {
+        title: "Trading Tips Engine",
+        description: "Central system for publishing BUY, SELL, TARGET and STOP LOSS recommendations across multiple market segments.",
+        badge: "Market Tips"
+      },
+      {
+        title: "Subscription & Payment Portal",
+        description: "Manages premium membership plans, online payments, renewals and automated subscriber access.",
+        badge: "Payments"
+      },
+      {
+        title: "Performance Analytics",
+        description: "Tracks historical calls, target achievements, stop losses and overall tip performance for transparent reporting.",
+        badge: "Analytics"
+      }
+    ],
+    features: [
+      {
+        name: "Live Share Market Tips",
+        description: "Publishes actionable BUY, SELL, TARGET and STOP LOSS recommendations with entry price and trading timeframe.",
+        tag: "Trading"
+      },
+      {
+        name: "Premium Subscription Plans",
+        description: "Creates multiple paid membership plans with controlled access to premium market calls and investment research.",
+        tag: "Subscription"
+      },
+      {
+        name: "Call Performance Tracking",
+        description: "Automatically records completed calls and calculates target hits, stop losses and historical performance.",
+        tag: "Analytics"
+      },
+      {
+        name: "Online Payment Integration",
+        description: "Integrated secure payment processing for purchasing and renewing premium market-tip subscriptions.",
+        tag: "Fintech"
+      },
+      {
+        name: "Member CRM",
+        description: "Manages investors, subscriptions, renewals, communication history and account activity from a centralized CRM.",
+        tag: "CRM"
+      },
+      {
+        name: "Market Segment Management",
+        description: "Supports configurable categories such as Intraday, Equity, Futures, Options and positional trading calls.",
+        tag: "Management"
+      }
+    ],
+    demoType: "crm",
+    imageUrl: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1642790551116-18e150f248e8?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800&q=80"
     ]
   }
 ];

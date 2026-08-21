@@ -312,7 +312,7 @@ export const Hero: React.FC<HeroProps> = ({ isDarkMode, onOpenResumeModal }) => 
                   isDarkMode ? 'bg-slate-950/40 border-slate-800/60' : 'bg-slate-50 border-slate-200'
                 }`}>
                   <div className="text-xl font-extrabold text-emerald-500">100%</div>
-                  <div className={`text-xs ${isDarkMode ? 'text-slate-400' : 'text-slate-600'}`}>GST & Tax API</div>
+                  <div className={`text-xs ${isDarkMode ? 'text-slate-400' : 'text-slate-600'}`}>API & Automations</div>
                 </div>
               </div>
 
