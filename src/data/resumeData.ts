@@ -833,6 +833,22 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
     category: "Websites & Portals",
     associatedSiteId: "task-flow",
     caption: "TaskFlow helps service businesses manage jobs, attendance, technicians, customer updates, and billing in one place.."
+  },
+  {
+    id: "gallery-23",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-23.png",
+    title: "Flutex — All In One Business Compainer",
+    category: "Flutter Application",
+    associatedSiteId: "flutex-flutter",
+    caption: "Manage Supplier Orders,Payments , Outstanding , Reports , Entry All In One Solution"
+  },
+  {
+    id: "gallery-24",
+    src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-24.png",
+    title: "Sms Sending App — Using Your SIM Card",
+    category: "Flutter Application",
+    associatedSiteId: "sms-flutter",
+    caption: "Send Bulk SmS using Your Existing Sim Card , Apis , Reports for Direct sms sending."
   }
 ];
 
