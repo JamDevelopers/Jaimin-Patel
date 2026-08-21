@@ -668,7 +668,7 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
   },
   {
     id: "gallery-2",
-    src: "/assets/gallery-2.png",
+    src: "./assets/gallery-2.png",
     title: "JSM App — Accounting & Financial Reporting",
     category: "Flutter Application",
     associatedSiteId: "jsm-app",
@@ -676,7 +676,7 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
   },
   {
     id: "gallery-3",
-    src: "/assets/gallery-3.jpeg",
+    src: "./assets/gallery-3.jpeg",
     title: "U Photoshoot Digital Studio — Google Search #1 & Local SEO",
     category: "SEO & Digital Marketing",
     associatedSiteId: "uphotoshoot-studio",
@@ -684,7 +684,7 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
   },
   {
     id: "gallery-4",
-    src: "/assets/gallery-4.jpeg",
+    src: "./assets/gallery-4.jpeg",
     title: "Godfatherr Solutions — Global Web & Agency Portal",
     category: "Websites & Portals",
     associatedSiteId: "godfatherr-solutions",
