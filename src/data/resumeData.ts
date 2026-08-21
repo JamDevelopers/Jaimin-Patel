@@ -829,7 +829,7 @@ export const GALLERY_ASSETS: GalleryAsset[] = [
   {
     id: "gallery-22",
     src: "https://raw.githubusercontent.com/JamDevelopers/Jaimin-Patel/main/assets/gallery-22.png",
-    title: "Task Flow — Selling",
+    title: "Task Flow — Perfect for local service providers",
     category: "Websites & Portals",
     associatedSiteId: "task-flow",
     caption: "TaskFlow helps service businesses manage jobs, attendance, technicians, customer updates, and billing in one place.."
